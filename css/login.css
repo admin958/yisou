@@ -1,0 +1,76 @@
+.contain{
+    position:fixed;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    width: 500px;
+    height: 300px;
+    background: #fff;
+    -moz-border-radius: 3%;
+    -o-border-radius: 3%;
+    -webkit-border-radius: 3%;
+    border-radius: 3%;
+    overflow: hidden;
+    border: 10px solid #9dc648;
+    -webkit-box-shadow: -15px 10px 6px #689421;
+    -moz-box-shadow: -15px 10px 6px #689421;
+    -o-box-shadow: -15px 10px 6px #689421;
+    box-shadow: -15px 10px 6px #689421;
+}
+.logo{
+    height: 100%;
+    line-height: 400px;
+    padding-left: 40px;
+}
+.control-default{
+    margin-top: 15px;
+    padding-left: 35px;
+}
+.control-default h3{
+    font-size: 1.7em;
+    line-height: 40px;
+}
+.control-default input,button{
+    font-size: 1.2em;
+    height: 32px;
+    width: 230px;
+    border:1px solid #585858;
+    line-height: 30px;
+    margin-bottom: 18px;
+    padding-left: 5px;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -o-border-radius: 5%;
+    border-radius: 5%;
+}
+.control-default .code{
+    width: 100px;
+}
+.control-default button{
+    background: #89c220;
+    border:1px solid #89c220;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+.code-txt{
+    display: inline-block;
+    height: 32px;
+    line-height: 30px;
+}
+.code-txt img{
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    padding-top: 5px;
+    margin: 0px 10px;
+}
+.code-txt a{
+    color: #cccccc;
+    font-size: 1.2em;
+}
+.code-txt a:hover{
+    color: #999990;
+}

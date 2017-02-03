@@ -1,0 +1,137 @@
+.con_bot_list{
+    padding: 0 20px;
+}
+.con_tab button{
+    padding: 5px 15px;
+}
+.input{
+    padding-left: 15px;
+}
+div.btn_an a{
+    padding: 5px 15px;
+    width: 130px;
+    margin-top: 10px;
+}
+textarea{
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+/****************************************************/
+
+.con_tab{
+    margin: 35px;
+}
+.con_tab>li{
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 50px;
+}
+.con_tab>li span{
+    display: inline-block;
+    width: 175px;
+    text-align: left;
+}
+.con_tab>li input{
+    width: 300px;
+    height: 35px;
+    padding-left: 5px;
+}
+.con_tab>li>input.c_requery{
+    margin-top: 18px;
+    width: 15px;
+    height: 15px;
+}
+.cacon_tab{
+    margin-left: 175px;
+    margin-top: 10px;
+}
+.cacon_tab button{
+    background: #8bbe35;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    width: 100px;
+    text-align: center;
+    line-height: 25px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+.button_up{
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: url("../images/img_ba.png")no-repeat 0px 16px ;
+}
+.button_up_li em{
+    color: red;
+    font-style: normal;
+    margin-left: 15px;
+}
+
+/*****************************/
+.texter_fl_1,
+.texter_fl_2{
+    overflow: hidden;
+}
+.texter_fl_1>p>textarea,
+.texter_fl_2>p>textarea{
+    width: 600px;
+    height: 400px;
+    margin-top: 10px
+}
+.texter_fl_2>p>textarea{
+    width: 600px;
+    height: 150px;
+}
+
+/*****************************************/
+div>div>ul>li>.sel_box{
+    float:left;
+    line-height: 25px;
+    padding: 10px 0;
+}
+div>div>ul>li>.sel_box div span{
+    width: 60px;
+    height: 25px;
+}
+div>div>ul>li>.sel_box div input{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    vertical-align: middle;
+}
+.em_sty{
+    color: red;
+    font-size: 1.5em
+}
+/*************************************************/
+.seo_over{
+    overflow: hidden;
+    border-bottom: 1px solid #eeeeee;
+    padding: 25px 0;
+}
+.seo_over>span,
+.seo_over>textarea{
+    float: left;
+}
+.seo_over>span{
+    width: 120px;
+}
+.seo_over>textarea{
+    width:600px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

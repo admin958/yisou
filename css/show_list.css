@@ -1,0 +1,364 @@
+.con_top_list{
+    background: #deecf4;
+    border-radius: 1em;
+    line-height: 50px;
+    border: 1px solid #a0a0a0;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.con_top_list>span{
+    float: left;
+    width: 11.1%;
+    text-align: center;
+}
+.con_top_list>span:first-child{
+    padding-left: 20px;
+    text-align: left;
+}
+.con_top_list>span>input{
+    width: 20px;
+    height:20px;
+}
+
+.con_middle{
+    width: 100%;
+    border-bottom: 1px solid #b1d2e1;
+}
+.con_middle p{
+    width: 100%;
+    border-top: 1px solid #b1d2e1;
+    line-height: 40px;
+}
+.con_middle p:hover{
+    background: #b1d2e1;
+}
+.con_middle>p span{
+    display: inline-block;
+    width: 10.7%;
+    text-align: center;
+}
+.con_middle>p span:first-child{
+    text-align: left;
+    padding-left: 20px;
+}
+.con_middle>p span:last-child a{
+    color: #0c639c;
+    margin: 0 10px ;
+}
+.con_middle>p span:last-child a:hover{
+    text-decoration: underline;
+}
+.img_product_border{
+    display: inline-block;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 3px;
+    margin: 3px 0;
+}
+.img_product_border img{
+    vertical-align: middle;
+    width: 100%;
+}
+/****************  market.html  *****************************/
+.con_top_list_01>span{
+    width: 16.3%;
+}
+.con_middle_01>p span{
+    width: 16%;
+}
+.con_top_list_02>span{
+    width: 14.2%;
+}
+.con_middle_02>p span{
+    width: 13.9%;
+}
+/*************点击跳转页面***************/
+body{
+    position: relative;
+}
+
+.buy_litt{
+    cursor: pointer;
+}
+.buy_litter{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.84);
+    z-index: 1000;
+}
+.buy_milldel{
+    background: #ffffff;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.buy_milldel>h3{
+    overflow: hidden;
+    font-size: 1.7em;
+    width: 100%;
+    padding: 5px 15px;
+    background: #ffffff;
+}
+.buy_milldel>h3>em{
+    font-style: normal;
+    float: left;
+}
+.buy_milldel>h3>span{
+    float: right;
+    cursor: pointer;
+}
+.ovflow{
+    overflow-y: scroll;
+    max-height: 400px;
+}
+.ovflow ul{
+    margin-top: 40px;
+    padding: 0 15px;
+
+}
+.ovflow>ul>li{
+    line-height: 50px;
+    border-bottom: 1px solid #444444;
+
+}
+.ovflow>ul>li>span{
+    display: inline-block;
+    width: 120px;
+}
+.ovflow>ul>li>input{
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+}
+.tm_textarea{
+    overflow: hidden;
+}
+.tm_textarea>span{
+    float: left;
+}
+.tm_textarea>textarea{
+    float: left;
+    width: 500px;
+    height: 80px;
+    margin: 10px 0;
+}
+.tm_img_s em{
+    font-style: normal;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 10px;
+    background: url(../images/img_ba.png)no-repeat 0 17px;
+}
+.radio_om>span{
+    float: left;
+
+}
+.radio_om>p{
+    overflow: hidden;
+    margin: 0 20px;
+}
+.radio_om>p>input{
+    float: left;
+    margin-top: 19px;
+}
+.radio_om>p>em{
+    font-style: normal;
+    float: left;
+    margin-right: 10px;
+}
+ul>li.ipot>span{
+    float: left;
+}
+ul>li.ipot>input{
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 18px;
+}
+ul>li.ipot>em{
+    overflow: hidden;
+    font-style: normal;
+}
+.bottom_btn{
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.bottom_btn>button{
+    min-width: 100px;
+    padding: 5px 18px;
+    margin-right: 15px;
+    background: #8bbe35;
+    color: #ffffff;
+    border-radius: 0.7em;
+}
+.bottom_btn>button:hover{
+    background: #a0a0a0;
+    color: #444444;
+}
+.pro_show_list>ul{
+    margin-bottom: 60px;
+}
+.pro_show_list>ul>li{
+    line-height: 25px;
+    border: 1px solid #a0a0a0;
+    border-top: 0;
+}
+.pro_show_list>ul>li:nth-child(1){
+    background: #bfcfd8;
+    padding-left: 15px;
+    color: #ffffff;
+}
+.pro_show_list>ul>li:nth-child(2){
+    background: #deecf4;
+}
+.pro_show_list>ul>li>span{
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+}
+.pro_show_list>ul>li>img{
+    border: 1px solid #a0a0a0;
+    display: inline-block;
+    padding: 3px;
+}
+.span_bottom{
+    margin-top: 10px;
+}
+.span_bottom span{
+    float: right;
+    padding: 5px 20px;
+    background: #8bbe35;
+    border: 1px solid #8bbe35;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+.span_bottom span:hover{
+    background: #ffffff;
+    color: #a0a0a0;
+}
+/*******************分页********************/
+.con_bot_list{
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.con_bot_list_rt>ul>li{
+    float: left;
+    overflow: hidden;
+}
+.con_bot_list_rt>ul>li>a{
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    background: #8bbe35;
+    border: 1px solid #8bbe35;
+    border-radius: 1em;
+    text-align: center;
+    color: #ffffff;
+}
+.con_bot_list_rt>ul>li>a:hover{
+    background: #ffffff;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.con_bot_list_rt>ul>li:first-child a{
+    width: 80px;
+    margin-right:10px ;
+}
+.con_bot_list_rt>ul>li:last-child a{
+    width: 80px;
+    margin-left:10px ;
+}
+
+#select_btn_n,#select_btn_m{
+    background: #deecf4;
+    color: #000000;
+    height: 25px;
+}
+#select_btn_m{
+    margin-left: 10px;
+}
+#select_btn_n>option,#select_btn_m>option{
+    background: #ffffff;
+    line-height: 20px;
+    color: #000000;
+}
+.con_bot_list_lf a{
+    display: inline-block;
+    line-height: 25px;
+    background: #8bbe35;
+    -o-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    width: 80px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 10px;
+}
+/************************admin样式***************************/
+.ul>li{
+    overflow: hidden;
+    line-height: 50px;
+    border-bottom: 1px solid #c3c3c3;
+}
+.ul>li>h4{
+    font-size: 12px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+    width: 120px;
+    font-weight: normal;
+}
+.ul>li>p{
+    overflow: hidden;
+}
+.input_btn>p{
+    overflow: hidden;
+}
+.input_btn>p>em{
+    float: left;
+    font-style: normal;
+    margin-right: 10px;
+}
+.input_btn>p>input{
+    float: left;
+    margin-top: 18px;
+}
+.btn>h1{
+    float: left;
+}
+.btn>div{
+    overflow: hidden;
+}
+.btn>div>p{
+    overflow: hidden;
+    line-height: 30px;
+}
+.btn>div>p>span{
+    overflow: hidden;
+    display: inline-block;
+    width: 120px;
+}
+.btn>div>p>span>input{
+    float: left;
+    margin-top:10px ;
+}
+.btn>div>p>span>em{
+    float: left;
+    font-style: normal;
+    margin-right: 10px ;
+
+}
+

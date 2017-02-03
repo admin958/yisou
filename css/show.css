@@ -1,0 +1,106 @@
+.con_midle_tp{
+    background: #deecf4;
+    border-radius: 1em;
+    line-height: 50px;
+    border: 1px solid #a0a0a0;
+    padding-left: 2%;
+    overflow: hidden;
+}
+.con_midle_tp span{
+    float: left;
+    width: 33%;
+    color: #48c3e3;
+    font-weight: 400;
+}
+.con_midle_tp span:last-child{
+    text-align: center;
+}
+.con_midle_productlist{
+    line-height: 30px;
+}
+.con_midle_productlist>input{
+    width: 200px;
+    text-align: center;
+    border-radius: 0.3em;
+}
+.con_midle_productlist>input.pro_list_value{
+    width: 50px;
+    text-align: center;
+}
+.select_add_row{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    float: right;
+}
+.select_add_row>a{
+    color: #82c4d5;
+    text-decoration:underline;
+}
+.add_lei{
+    display: inline-block;
+    padding-left: 20px;
+    background: url("../images/btn_add.png")no-repeat 0px 16px ;
+    color: #ffc8a2;
+    font-weight: bold;
+    width: 15px;
+    height: 30px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+.add_lei:hover{
+    width: 100px;
+}
+.add_lei_new{
+    padding-left:150px;
+    background: url("../images/add_list_03.png")no-repeat 99px 0px;
+}
+div.add_lei_new>input{
+    width: 200px;
+    border-radius: 0.2em;
+}
+.add_list,.add_list_prop{
+    line-height: 30px;
+    margin-left: 30px;
+}
+.add_list_prop{
+    margin-left: 100px;
+}
+.add_list>a,.add_list_prop>a{
+    padding-left: 20px;
+    background: url("../images/btn_add.png")no-repeat 0px -2px ;
+    color: #ffc8a2;
+    font-weight: bold;
+}
+.add_produvt_newam{
+    line-height: 30px;
+}
+.add_produvt_newam input{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    border-radius: 0.3em;
+}
+.btn_01{
+    display: inline-block;
+    padding-left: 50px;
+    background: url("../images/add_list_03.png")no-repeat -6px 3px;
+}
+.add_produvt_newam>span>input{
+    width: 200px;
+}
+.btn_an{
+    margin-left: 30px;
+}
+.btn_an>a{
+    display: inline-block;
+    line-height: 25px;
+    background: #8bbe35;
+    border-radius: 1em;
+    margin-right: 20px;
+    min-width: 100px;
+    padding: 5px 15px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
